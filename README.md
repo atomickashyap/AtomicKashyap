@@ -17,6 +17,10 @@
 
 I get to build amazing experiences and learn new things every day.
 
+### I'm listening to:
+
+[![Spotify](https://novatorem-28vf.vercel.app/api/spotify)](https://open.spotify.com/user/315tk5vqn6ohbbmilvdfrt76dxou)
+
 
 ```javascript
 const aman = {
