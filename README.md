@@ -34,3 +34,5 @@ const aman = {
 };
 
 ```
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=AmanKas&theme=violet-dark&type=png&card_width=595)](https://git.io/streak-stats)
+
