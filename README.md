@@ -13,7 +13,7 @@
 [![Linkedin: anmol](https://img.shields.io/badge/-aman-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/anmol-p-singh/)](https://www.linkedin.com/in/aman-kashyap-4a88a2122/)
 ![GitHub followers](https://img.shields.io/github/followers/amankas?label=Follow&style=social)
 [![website](https://img.shields.io/badge/Website-46a2f1.svg?&style=flat-square&logo=Google-Chrome&logoColor=white&link=https://amankas.github.io/aman.exe/about.html)](https://amankas.github.io/aman.exe/about.html)
-![](https://visitor-badge.glitch.me/badge?page_id=amankas.aman)
+[![Visitors](https://api.visitorbadge.io/api/visitors?path=AmanKas&label=Visitors&countColor=%23263759&style=flat)](https://visitorbadge.io/status?path=AmanKas)
 
 I get to build amazing experiences and learn new things every day.
 
