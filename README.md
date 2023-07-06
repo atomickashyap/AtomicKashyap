@@ -25,7 +25,7 @@ I get to build amazing experiences and learn new things every day.
 ```javascript
 const aman = {
     pronouns: "He" | "Him",
-    code: ["C++", "Python","Java"],
+    code: ["C++", "Python", "Java"],
     askMeAbout: ["web dev", "tech", "app dev", "photography"],
     tool and technologies: ["HTML", "CSS", "Django", "NodeJs", "Numpy"],
     misc: ["Ardino", "LaTeX", "Tableau", "Adobe Premiere Pro", "Lightroom"],
