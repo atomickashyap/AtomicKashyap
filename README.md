@@ -34,4 +34,4 @@ const aman = {
 };
 
 ```
-[![GitHub Streak](https://streak-stats.demolab.com?user=AmanKas&theme=radical&hide_border=true&card_width=490)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=AmanKas&theme=radical&hide_border=true&card_width=500)](https://git.io/streak-stats)
