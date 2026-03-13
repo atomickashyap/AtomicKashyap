@@ -3,17 +3,9 @@
 <p><em>Software Engineer @ MAQ Software | Azure Data Engineer | IIIT Bhagalpur Grad '24 <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
 </em></p>
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=0078D4&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=%F0%9F%94%A7+Extract+%E2%86%92+%F0%9F%94%84+Transform+%E2%86%92+%F0%9F%93%A6+Load;SELECT+*+FROM+data_engineer+WHERE+passion+%3D+'infinite';Bronze+%E2%86%92+Silver+%E2%86%92+Gold+%7C+Medallion+Architecture;CREATE+PIPELINE+AS+daily_magic+%F0%9F%9A%80" alt="Data Pipeline Animation" />
-</div>
-
-<div align="center">
-  <img src="data-pipeline-animation.svg" alt="Data Pipeline Flow" width="100%"/>
-</div>
-
 ---
 
-<img align='right' src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjB5aGV6YnY5dGN5NjBmZXF5OWM1NzY3NHVyMDVnN2FnYTdkaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif" width="250">
+<img align='right' src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjB5aGV6YnY5dGN5NjBmZXF5OWM1NzY3NHVyMDVnN2FnYTdkaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif" width="210">
 
 ### 🧑‍💻 About Me:
 - 📊 **Data Engineer** passionate about building scalable data pipelines
@@ -30,6 +22,8 @@
 [![Email](https://img.shields.io/badge/-Email_Me-D14836?style=for-the-badge&logo=Gmail&logoColor=white)](mailto:aman.cse.20108@iiitbh.ac.in)
 [![Twitter](https://img.shields.io/twitter/follow/atomickashyap?style=for-the-badge&logo=twitter&logoColor=white&color=1DA1F2)](https://twitter.com/atomickashyap)
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=AtomicKashyap&label=Profile%20Views&countColor=%230077B5&style=for-the-badge)](https://visitorbadge.io/status?path=AtomicKashyap)
+
+<div style="clear: both;"></div>
 
 ---
 
@@ -62,12 +56,6 @@
 
 ---
 
-### 🎵 Currently Listening To:
-
-[![Spotify](https://novatorem-28vf.vercel.app/api/spotify)](https://open.spotify.com/user/315tk5vqn6ohbbmilvdfrt76dxou)
-
----
-
 ### 💼 Professional Experience
 
 <table>
@@ -96,6 +84,14 @@
 </tr>
 </table>
 
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=4000&pause=1000&color=0078D4&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=80&lines=%F0%9F%94%A7+Extract+%E2%86%92+%F0%9F%94%84+Transform+%E2%86%92+%F0%9F%93%A6+Load;SELECT+*+FROM+data_engineer+WHERE+passion+%3D+'infinite'" alt="Data Pipeline Animation" />
+</div>
+
+<div align="center">
+  <img src="data-pipeline-animation.svg" alt="Data Pipeline Flow" width="100%"/>
+</div>
+
 ---
 
 ### 🏆 Certifications & Achievements
@@ -111,22 +107,34 @@
 
 </div>
 
----### 🎮 GitHub Space Shooter:
+---
+
+### 🎮 GitHub Space Shooter:
 ![My GitHub Game](game.gif)
 
 > 🚀 My contribution graph transformed into an epic space shooter! Updates automatically every day.
 
 ---
 
-### 📊 GitHub Stats:
+### 📊 GitHub & LeetCode Stats:
+
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%" valign="top">
+        <a href="https://git.io/streak-stats">
+          <img src="https://streak-stats.demolab.com?user=AtomicKashyap&theme=tokyonight&hide_border=true" width="100%" />
+        </a>
+      </td>
+      <td width="50%" valign="top">
+        <img src="https://github-readme-stats.vercel.app/api?username=AtomicKashyap&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&card_width=400" width="100%" />
+      </td>
+    </tr>
+  </table>
+</div>
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=AtomicKashyap&theme=tokyonight&hide_border=true&card_width=500)](https://git.io/streak-stats)
-
-![Aman's GitHub Stats](https://github-readme-stats.vercel.app/api?username=AtomicKashyap&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=AtomicKashyap&layout=compact&theme=tokyonight&hide_border=true)
 
 </div>
 
