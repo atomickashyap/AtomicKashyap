@@ -1,0 +1,248 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="100%" style="stop-color:#161b22"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="200" fill="url(#bgGrad)" rx="10"/>
+
+  <!-- Grid lines -->
+  <g opacity="0.06" stroke="#58a6ff">
+    <line x1="0" y1="40" x2="800" y2="40"/>
+    <line x1="0" y1="80" x2="800" y2="80"/>
+    <line x1="0" y1="120" x2="800" y2="120"/>
+    <line x1="100" y1="0" x2="100" y2="200"/>
+    <line x1="200" y1="0" x2="200" y2="200"/>
+    <line x1="300" y1="0" x2="300" y2="200"/>
+    <line x1="400" y1="0" x2="400" y2="200"/>
+    <line x1="500" y1="0" x2="500" y2="200"/>
+    <line x1="600" y1="0" x2="600" y2="200"/>
+    <line x1="700" y1="0" x2="700" y2="200"/>
+  </g>
+
+  <!-- SOURCE: Raw Data Cloud -->
+  <g transform="translate(65, 55)">
+    <ellipse cx="0" cy="0" rx="38" ry="22" fill="#21262d" stroke="#30363d" stroke-width="1.5"/>
+    <ellipse cx="-18" cy="5" rx="20" ry="16" fill="#21262d" stroke="#30363d" stroke-width="1.5"/>
+    <ellipse cx="18" cy="5" rx="20" ry="16" fill="#21262d" stroke="#30363d" stroke-width="1.5"/>
+    <ellipse cx="0" cy="10" rx="30" ry="14" fill="#21262d"/>
+    <text x="0" y="4" text-anchor="middle" fill="#8b949e" font-family="monospace" font-size="9" font-weight="bold">RAW</text>
+    <text x="0" y="16" text-anchor="middle" fill="#58a6ff" font-family="monospace" font-size="7">2.4B+ rows</text>
+    <ellipse cx="0" cy="5" rx="35" ry="20" fill="none" stroke="#58a6ff" stroke-width="0.8" opacity="0">
+      <animate attributeName="opacity" values="0;0.5;0" dur="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="rx" values="36;44;36" dur="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="ry" values="21;26;21" dur="2.5s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+
+  <!-- DATA DROPS: Cloud to ADF -->
+  <circle cx="120" cy="60" r="3" fill="#58a6ff" opacity="0">
+    <animate attributeName="cx" values="108;185" dur="1.8s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="55;70" dur="1.8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.9;0.9;0" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="120" cy="65" r="2.5" fill="#79c0ff" opacity="0">
+    <animate attributeName="cx" values="108;185" dur="1.8s" begin="0.6s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="62;75" dur="1.8s" begin="0.6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.7;0.7;0" dur="1.8s" begin="0.6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="120" cy="50" r="2" fill="#a5d6ff" opacity="0">
+    <animate attributeName="cx" values="108;185" dur="1.8s" begin="1.2s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="50;65" dur="1.8s" begin="1.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.6;0.6;0" dur="1.8s" begin="1.2s" repeatCount="indefinite"/>
+  </circle>
+  <line x1="108" y1="58" x2="185" y2="65" stroke="#30363d" stroke-width="0.5" stroke-dasharray="4 3"/>
+
+  <!-- ADF Pipeline Block -->
+  <g transform="translate(220, 62)">
+    <rect x="-35" y="-22" width="70" height="44" rx="6" fill="#21262d" stroke="#0078D4" stroke-width="1.5"/>
+    <text x="0" y="-5" text-anchor="middle" fill="#0078D4" font-family="monospace" font-size="9" font-weight="bold">ADF</text>
+    <text x="0" y="9" text-anchor="middle" fill="#8b949e" font-family="monospace" font-size="7">30+ pipes</text>
+    <circle cx="24" cy="-14" r="6" fill="none" stroke="#0078D4" stroke-width="1.2" stroke-dasharray="3 2">
+      <animateTransform attributeName="transform" type="rotate" from="0 24 -14" to="360 24 -14" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="24" cy="-14" r="2" fill="#0078D4"/>
+  </g>
+
+  <!-- DATA STREAM: ADF to Spark -->
+  <rect x="262" y="58" width="8" height="3" rx="1.5" fill="#0078D4" opacity="0">
+    <animate attributeName="x" values="260;340" dur="1.4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="1.4s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="262" y="65" width="6" height="2.5" rx="1.25" fill="#58a6ff" opacity="0">
+    <animate attributeName="x" values="260;340" dur="1.4s" begin="0.35s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.8;0.8;0" dur="1.4s" begin="0.35s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="262" y="72" width="10" height="2" rx="1" fill="#79c0ff" opacity="0">
+    <animate attributeName="x" values="260;340" dur="1.4s" begin="0.7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.6;0.6;0" dur="1.4s" begin="0.7s" repeatCount="indefinite"/>
+  </rect>
+  <line x1="258" y1="65" x2="348" y2="65" stroke="#30363d" stroke-width="0.5" stroke-dasharray="4 3"/>
+
+  <!-- DATABRICKS / PySpark Block -->
+  <g transform="translate(385, 62)">
+    <rect x="-35" y="-22" width="70" height="44" rx="6" fill="#21262d" stroke="#FF3621" stroke-width="1.5"/>
+    <text x="0" y="-5" text-anchor="middle" fill="#FF3621" font-family="monospace" font-size="8" font-weight="bold">SPARK</text>
+    <text x="0" y="9" text-anchor="middle" fill="#8b949e" font-family="monospace" font-size="7">60+ books</text>
+    <polygon points="0,-18 3,-11 7,-12 4,-6 8,-2 3,-4 0,2 -3,-4 -8,-2 -4,-6 -7,-12 -3,-11" fill="#FF3621" opacity="0.7">
+      <animate attributeName="opacity" values="0.4;0.9;0.4" dur="1.2s" repeatCount="indefinite"/>
+    </polygon>
+  </g>
+
+  <!-- TRANSFORM PARTICLES to Medallion -->
+  <circle cx="425" cy="50" r="2.5" fill="#FF3621" opacity="0">
+    <animate attributeName="cx" values="425;495" dur="1.6s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="52;32" dur="1.6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.9;0.9;0" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="425" cy="62" r="2" fill="#FF3621" opacity="0">
+    <animate attributeName="cx" values="425;495" dur="1.6s" begin="0.4s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="62;62" dur="1.6s" begin="0.4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.7;0.7;0" dur="1.6s" begin="0.4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="425" cy="74" r="2" fill="#FF3621" opacity="0">
+    <animate attributeName="cx" values="425;495" dur="1.6s" begin="0.8s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="74;92" dur="1.6s" begin="0.8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.6;0.6;0" dur="1.6s" begin="0.8s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- MEDALLION: Bronze -->
+  <g transform="translate(530, 30)">
+    <rect x="-30" y="-14" width="60" height="28" rx="5" fill="#21262d" stroke="#CD7F32" stroke-width="1.5"/>
+    <text x="0" y="1" text-anchor="middle" fill="#CD7F32" font-family="monospace" font-size="8" font-weight="bold">BRONZE</text>
+    <text x="0" y="11" text-anchor="middle" fill="#8b949e" font-family="monospace" font-size="6">raw layer</text>
+  </g>
+
+  <!-- MEDALLION: Silver -->
+  <g transform="translate(530, 64)">
+    <rect x="-30" y="-14" width="60" height="28" rx="5" fill="#21262d" stroke="#C0C0C0" stroke-width="1.5"/>
+    <text x="0" y="1" text-anchor="middle" fill="#C0C0C0" font-family="monospace" font-size="8" font-weight="bold">SILVER</text>
+    <text x="0" y="11" text-anchor="middle" fill="#8b949e" font-family="monospace" font-size="6">cleaned</text>
+  </g>
+
+  <!-- MEDALLION: Gold -->
+  <g transform="translate(530, 98)">
+    <rect x="-30" y="-14" width="60" height="28" rx="5" fill="#21262d" stroke="#F2C811" stroke-width="1.5"/>
+    <text x="0" y="1" text-anchor="middle" fill="#F2C811" font-family="monospace" font-size="8" font-weight="bold">GOLD</text>
+    <text x="0" y="11" text-anchor="middle" fill="#8b949e" font-family="monospace" font-size="6">curated</text>
+    <rect x="-30" y="-14" width="60" height="28" rx="5" fill="none" stroke="#F2C811" stroke-width="1" opacity="0">
+      <animate attributeName="opacity" values="0;0.7;0" dur="2.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Vertical flow dots between medallion layers -->
+  <circle cx="530" cy="44" r="1.8" fill="#C0C0C0" opacity="0">
+    <animate attributeName="cy" values="44;50" dur="0.9s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.8;0" dur="0.9s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="530" cy="78" r="1.8" fill="#F2C811" opacity="0">
+    <animate attributeName="cy" values="78;84" dur="0.9s" begin="0.45s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.8;0" dur="0.9s" begin="0.45s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- DATA STREAM: Gold to Delta Lake -->
+  <rect x="565" y="95" width="7" height="3" rx="1.5" fill="#F2C811" opacity="0">
+    <animate attributeName="x" values="565;620" dur="1.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="565" y="101" width="9" height="2" rx="1" fill="#D4A800" opacity="0">
+    <animate attributeName="x" values="565;620" dur="1.2s" begin="0.4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.7;0.7;0" dur="1.2s" begin="0.4s" repeatCount="indefinite"/>
+  </rect>
+  <line x1="563" y1="98" x2="625" y2="70" stroke="#30363d" stroke-width="0.5" stroke-dasharray="4 3"/>
+
+  <!-- DELTA LAKE (Database Cylinder) -->
+  <g transform="translate(665, 58)">
+    <rect x="-32" y="-8" width="64" height="42" rx="2" fill="#003366"/>
+    <rect x="-32" y="-8" width="64" height="42" rx="2" fill="none" stroke="#29B5E8" stroke-width="1.5"/>
+    <ellipse cx="0" cy="-8" rx="32" ry="10" fill="#003366" stroke="#29B5E8" stroke-width="1.5"/>
+    <ellipse cx="0" cy="-8" rx="29" ry="7" fill="#0d1117"/>
+    <ellipse cx="0" cy="10" rx="32" ry="6" fill="none" stroke="#29B5E8" stroke-width="0.4" opacity="0.3"/>
+    <ellipse cx="0" cy="34" rx="32" ry="10" fill="#003366" stroke="#29B5E8" stroke-width="1.5"/>
+    <polygon points="0,2 -10,18 10,18" fill="none" stroke="#29B5E8" stroke-width="1.8"/>
+    <text x="0" y="30" text-anchor="middle" fill="#29B5E8" font-family="monospace" font-size="7" font-weight="bold">DELTA</text>
+
+    <!-- Data drops falling INTO the database -->
+    <circle cx="-10" cy="-28" r="3" fill="#F2C811" opacity="0">
+      <animate attributeName="cy" values="-30;-10" dur="1.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.9;0.7;0" dur="1.6s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="3;3.5;1" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="6" cy="-35" r="2.5" fill="#58a6ff" opacity="0">
+      <animate attributeName="cy" values="-35;-10" dur="1.6s" begin="0.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.8;0.5;0" dur="1.6s" begin="0.5s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="2.5;3;0.5" dur="1.6s" begin="0.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="14" cy="-26" r="2" fill="#79c0ff" opacity="0">
+      <animate attributeName="cy" values="-26;-10" dur="1.6s" begin="1s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.7;0.4;0" dur="1.6s" begin="1s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="2;2.5;0.5" dur="1.6s" begin="1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="-15" cy="-32" r="2.2" fill="#a5d6ff" opacity="0">
+      <animate attributeName="cy" values="-32;-10" dur="1.6s" begin="0.75s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.8;0.6;0" dur="1.6s" begin="0.75s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="2.2;2.8;0.5" dur="1.6s" begin="0.75s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Ripple effect inside database -->
+    <ellipse cx="0" cy="-8" rx="8" ry="3" fill="none" stroke="#58a6ff" stroke-width="0.6" opacity="0">
+      <animate attributeName="opacity" values="0;0.6;0" dur="1.6s" repeatCount="indefinite"/>
+      <animate attributeName="rx" values="4;27;29" dur="1.6s" repeatCount="indefinite"/>
+      <animate attributeName="ry" values="1;6;7" dur="1.6s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="0" cy="-8" rx="8" ry="3" fill="none" stroke="#29B5E8" stroke-width="0.5" opacity="0">
+      <animate attributeName="opacity" values="0;0.4;0" dur="1.6s" begin="0.5s" repeatCount="indefinite"/>
+      <animate attributeName="rx" values="4;27;29" dur="1.6s" begin="0.5s" repeatCount="indefinite"/>
+      <animate attributeName="ry" values="1;6;7" dur="1.6s" begin="0.5s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+
+  <!-- Arrow: Delta to Power BI -->
+  <circle cx="702" cy="62" r="2" fill="#29B5E8" opacity="0">
+    <animate attributeName="cx" values="700;725" dur="1s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.9;0" dur="1s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- OUTPUT: Power BI -->
+  <g transform="translate(755, 55)">
+    <rect x="-28" y="-24" width="56" height="48" rx="6" fill="#21262d" stroke="#F2C811" stroke-width="1.5"/>
+    <rect x="-16" y="2" width="8" height="14" rx="1" fill="#F2C811" opacity="0.9">
+      <animate attributeName="height" values="8;14;8" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="8;2;8" dur="2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="-4" y="-4" width="8" height="20" rx="1" fill="#0078D4" opacity="0.9">
+      <animate attributeName="height" values="14;20;14" dur="2s" begin="0.3s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="2;-4;2" dur="2s" begin="0.3s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="8" y="5" width="8" height="11" rx="1" fill="#29B5E8" opacity="0.9">
+      <animate attributeName="height" values="6;11;6" dur="2s" begin="0.6s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="10;5;10" dur="2s" begin="0.6s" repeatCount="indefinite"/>
+    </rect>
+    <text x="0" y="-12" text-anchor="middle" fill="#F2C811" font-family="monospace" font-size="7" font-weight="bold">POWER BI</text>
+  </g>
+
+  <!-- Bottom Stats Bar -->
+  <rect x="20" y="140" width="760" height="45" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+
+  <text x="115" y="158" text-anchor="middle" fill="#58a6ff" font-family="monospace" font-size="11" font-weight="bold">2.4B+</text>
+  <text x="115" y="174" text-anchor="middle" fill="#8b949e" font-family="monospace" font-size="8">Records</text>
+
+  <circle cx="210" cy="162" r="2" fill="#30363d"/>
+
+  <text x="300" y="158" text-anchor="middle" fill="#FF3621" font-family="monospace" font-size="11" font-weight="bold">60+</text>
+  <text x="300" y="174" text-anchor="middle" fill="#8b949e" font-family="monospace" font-size="8">Notebooks</text>
+
+  <circle cx="390" cy="162" r="2" fill="#30363d"/>
+
+  <text x="480" y="158" text-anchor="middle" fill="#0078D4" font-family="monospace" font-size="11" font-weight="bold">30+</text>
+  <text x="480" y="174" text-anchor="middle" fill="#8b949e" font-family="monospace" font-size="8">ADF Pipelines</text>
+
+  <circle cx="575" cy="162" r="2" fill="#30363d"/>
+
+  <text x="665" y="158" text-anchor="middle" fill="#3fb950" font-family="monospace" font-size="11" font-weight="bold">0%</text>
+  <text x="665" y="174" text-anchor="middle" fill="#8b949e" font-family="monospace" font-size="8">Discrepancy</text>
+
+</svg>
