@@ -109,14 +109,7 @@
 
 ---
 
-### 🎮 GitHub Space Shooter:
-![My GitHub Game](game.gif)
-
-> 🚀 My contribution graph transformed into an epic space shooter! Updates automatically every day.
-
----
-
-### 📊 GitHub & LeetCode Stats:
+### 📊 GitHub Stats:
 
 <div align="center">
   <table>
@@ -137,6 +130,13 @@
 
 
 </div>
+
+---
+
+### 🎮 GitHub Space Shooter:
+![My GitHub Game](game.gif)
+
+> 🚀 My contribution graph transformed into an epic space shooter! Updates automatically every day.
 
 ---
 
