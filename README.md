@@ -55,6 +55,11 @@ const aman = {
 - Reduced database migration time by 40% using SQLAlchemy
 
 
+### 🎮 GitHub Space Shooter:
+![My GitHub Game](game.gif)
+
+> 🚀 My contribution graph transformed into an epic space shooter! Updates automatically every day.
+
 ### 📊 GitHub Stats:
 [![GitHub Streak](https://streak-stats.demolab.com?user=AtomicKashyap&theme=radical&hide_border=true&card_width=500)](https://git.io/streak-stats)
 
