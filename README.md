@@ -94,6 +94,24 @@
 
 ---
 
+### 🚀 Side Projects
+
+<table>
+<tr>
+<td width="80" align="center">💰</td>
+<td>
+
+**[SpendArc](https://www.spendarc.com)** — A privacy-first personal finance tracker for Android. Track spending, plan budgets, set savings goals, and get AI-powered insights — all without your data leaving your device.
+
+[![SpendArc](https://img.shields.io/badge/SpendArc-Public-0078D4?style=for-the-badge)](https://github.com/AtomicKashyap/SpendArc-Public)
+[![Website](https://img.shields.io/badge/spendarc.com-Visit-47A248?style=for-the-badge)](https://www.spendarc.com)
+
+</td>
+</tr>
+</table>
+
+---
+
 ### 🏆 Certifications & Achievements
 
 <div align="center">
